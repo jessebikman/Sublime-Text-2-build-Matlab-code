@@ -2,6 +2,6 @@
 
     "cmd": ["/Applications/MATLAB_R2012a.app/bin/matlab", "-nosplash", "<$file_name"],
     
-    "selector": "source.m"
+    "selector": "source.MATLAB"
 
 }
