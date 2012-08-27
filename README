@@ -2,15 +2,9 @@
 2. Copy the contents of a *-Matlab.sublime-build file that is appropriate for your system and paste it into this window. If you are not running R2012a, then make edits accordingly.
 3. Replace "/usr/local/MATLAB/R2012a/bin/matlab" or "/Applications/MATLAB_R2012a.app/bin/matlab" with the path to your Matlab program. 
 4. Save.
-5. Go to Tools->Build System-> and select Matlab.
-6. Go to Tools-> Build Results and click Show Build Results.
-7. From here on out, clicking F7 or ⌘-B will make Sublime Text 2 build and run .m files. 
+5. This should make Sublime build .m files automatically from within Sublime. 
 
 Let me know if something doesn't work right for you. I have not tested this code on Windows or with any version of Matlab besides R2012a. The Linux variant I am using in tandem with this build file is Ubuntu 12.04.
 
-
-Idiosyncrasies:
-
-If you select Automatic as a build mode, this should also work since the "selector" variable being set to "source.m" in the Matlab.sublime-build file, which causes the Matlab build system to be used for .m files. Unfortunately, this is not the case. I have not figured out why the selector variable is acting poorly for .m files. So far I have noticed this to be a problem on OS X, though I have not yet tested it on Linux or Windows.
 
 This code is MIT licensed.
