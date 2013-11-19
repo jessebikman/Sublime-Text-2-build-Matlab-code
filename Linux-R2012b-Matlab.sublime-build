@@ -1,0 +1,7 @@
+{
+
+    "cmd": ["/usr/local/MATLAB/R2012b/bin/matlab", "-nosplash", "<$file_name"],
+    
+    "selector": "source.m"
+
+}
