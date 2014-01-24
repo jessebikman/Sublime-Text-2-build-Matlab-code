@@ -1,6 +1,6 @@
 {
   "selector": "source.matlab",
-  "cmd": ["/Applications/MATLAB_R2011b.app/bin/matlab", "-nosplash", "<$file_name"],
+  "cmd": ["/Applications/MATLAB_R2011b.app/bin/matlab", "-nosplash", "<$file_name", "2>&1 | grep -v 'exclude an item from Time Machine'"],
 
   "variants": [
 
