@@ -1,0 +1,16 @@
+{
+  "selector": "source.matlab",
+  "cmd": ["/Applications/MATLAB_R2011b.app/bin/matlab", "-nosplash", "<$file_name"],
+
+  "variants": [
+
+    { "cmd": ["/Applications/MATLAB_R2011b.app/bin/matlab", "-nosplash", "-r", "publish('$file_path/$file_name')"],
+      "name": "Publish Matlab"
+    },
+
+    {
+      "cmd": ["open", "$file_path/html/$file_base_name.html"],
+      "name": "Open published Matlab"
+    }
+  ]
+}
