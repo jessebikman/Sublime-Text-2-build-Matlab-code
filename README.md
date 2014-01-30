@@ -1,6 +1,6 @@
 # A Sublime Text 2 Build Script for Matlab.
 
-A collection of sublime-build scripts which allow Sublime to automatically execute Matlab scripts directly.
+A collection of sublime-build scripts which allow Sublime to run headless Matlab scripts directly.
 
 1. From within Sublime Text 2, go to Tools → Build System → New Build System.
 2. Copy the contents of a *-Matlab.sublime-build file that is appropriate for your system and paste it into this window.
