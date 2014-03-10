@@ -11,3 +11,7 @@ A collection of sublime-build scripts which allow Sublime to run headless Matlab
 The Linux variant I am using in tandem with this build file is Ubuntu 12.04.
 
 This code is MIT licensed.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jessebikman/sublime-text-2-build-matlab-code/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
